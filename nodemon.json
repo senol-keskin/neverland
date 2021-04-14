@@ -1,0 +1,4 @@
+{
+  "exec": "next dev",
+  "watch": ["server"]
+}

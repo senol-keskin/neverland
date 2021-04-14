@@ -1,0 +1,10 @@
+node_modules
+build
+dist
+res
+coverage
+.next
+amplify/
+.graphqlconfig.yml
+src/API.ts
+src/graphql/

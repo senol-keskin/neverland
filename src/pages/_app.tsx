@@ -1,11 +1,11 @@
-import { ChakraProvider, CSSReset } from "@chakra-ui/react";
-import type { AppProps } from "next/app";
+import { ChakraProvider } from '@chakra-ui/react'
+import type { AppProps } from 'next/app'
 
-function MyApp({ Component, pageProps }: AppProps) {
+const MyApp = ({ Component, pageProps }: AppProps): JSX.Element => {
   return (
     <ChakraProvider>
       <Component {...pageProps} />
     </ChakraProvider>
-  );
+  )
 }
-export default MyApp;
+export default MyApp

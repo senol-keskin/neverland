@@ -1,6 +1,7 @@
+import type { NextPage } from 'next'
 import { Box } from '@chakra-ui/layout'
 
-const Index = (): JSX.Element => {
+const Index: NextPage = () => {
   return <Box>Helloow react next</Box>
 }
 

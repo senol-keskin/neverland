@@ -15,7 +15,7 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "paths": {
-      "@components/*": ["components/*"],
+      "@components/*": ["./src/components/*"],
       "@themes/*": ["./src/themes/*"]
     }
   },

@@ -1,11 +1,11 @@
 import { Flex, Switch, useColorMode } from '@chakra-ui/react'
 
 const NavBar: React.FC = () => {
-  const { toggleColorMode } = useColorMode()
+  const { toggleColorMode, colorMode } = useColorMode()
 
   return (
     <Flex>
-      <Switch onChange={toggleColorMode} />
+      <Switch onChange={toggleColorMode} isChecked={colorMode === 'dark'} />
     </Flex>
   )
 }

@@ -4,9 +4,8 @@ import styles from '@themes/styles'
 import foundations from '@themes/foundations'
 
 const config: ThemeConfig = {
-  cssVarPrefix: 'sall',
-  initialColorMode: 'light',
-  useSystemColorMode: false,
+  cssVarPrefix: 'sk',
+  useSystemColorMode: true,
 }
 
 const overrides = {

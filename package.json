@@ -6,6 +6,9 @@
     "name": "Senol Keskin",
     "email": "msenolkeskin@gmail.com"
   },
+  "cacheDirectories": [
+    ".next/cache"
+  ],
   "scripts": {
     "dev": "nodemon",
     "build": "next build",
